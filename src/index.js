@@ -1,13 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './assets/css/index.css';
+// import App from './Componentes/App';
+import Aside from './Componentes/Aside/Aside';
+import Feature from './Componentes/feature/Feature';
+import Nav from './Componentes/nav/Nav';
+import Text from './Componentes/text/Text';
 import reportWebVitals from './reportWebVitals';
+import "https://kit.fontawesome.com/6131ecdde6.js";
+import Ubicanos from './Componentes/Ubicanos/Ubicanos';
+import Footer from './Componentes/footer/Footer';
+import Opinion from './Componentes/opinion/Opinion';
+import Login from './Componentes/Login/Login';
+import Dashboard from './Componentes/Dashboard/Dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Nav />
+    <Aside />
+    <section>
+      <Text />
+      <Feature />
+      <Ubicanos />
+    </section>
+    <Opinion />
+    <Footer /> 
+    <Login />*/}
+    <Dashboard />
   </React.StrictMode>
 );
 
